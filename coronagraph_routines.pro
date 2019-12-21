@@ -60,7 +60,7 @@ END
 
 ;  zodiacal light count rate
 ;      q - quantum efficiency
-;      X - diameter or length of photometric aperture (lambda/D)
+;      X - radius (size) of photometric aperture (lambda/D)
 ;      T - system throughput
 ;    lam - wavelength (um)
 ;   dlam - spectral element width (um)
@@ -91,7 +91,7 @@ END
 
 ;  exozodiacal light count rate
 ;      q - quantum efficiency
-;      X - diameter or length of photometric aperture (lambda/D)
+;      X - radius (size) of photometric aperture (lambda/D)
 ;      T - system throughput
 ;    lam - wavelength (um)
 ;   dlam - spectral element width (um)
@@ -139,7 +139,7 @@ END
 
 ;  dark count rate
 ;     De - dark count rate (s**-1)
-;      X - diameter or length of photometric aperture (lambda/D)
+;      X - radius (size) of photometric aperture (lambda/D)
 ;    lam - wavelength (um)
 ;      D - telescope diameter (m)
 ;  theta - angular radius of lenslet or pixel (arcsec)
@@ -157,7 +157,7 @@ END
 
 ;  read noise count rate
 ;     Re - read noise counts per pixel
-;      X - diameter or length of photometric aperture (lambda/D)
+;      X - radius (size) of photometric aperture (lambda/D)
 ;    lam - wavelength (um)
 ;      D - telescope diameter (m)
 ;  theta - angular radius of lenslet or pixel (arcsec)
@@ -175,7 +175,7 @@ END
 
 ;  clock induced charge count rate
 ;     Rc - clock induced charge counts per pixel per read
-;      X - diameter or length of photometric aperture (lambda/D)
+;      X - radius (size) of photometric aperture (lambda/D)
 ;    lam - wavelength (um)
 ;      D - telescope diameter (m)
 ;  theta - angular radius of lenslet or pixel (arcsec)
