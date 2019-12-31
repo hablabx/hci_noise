@@ -109,7 +109,7 @@ PRO CORONAGRAPH, Ahr, lamhr, alpha, Phi, Rp, Teff, Rs, r, d, Nez, lammin, lammax
   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
   ;;;  angular size of lenslet ;;;
   ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-  theta = lammin/1.d6/diam/2.*(180/!DPI*3600.) ;diameter (assumes sampled at ~lambda/2D) (arcsec)
+  theta = lammin/1.d6/diam/2.*(180/!DPI*3600.) ;radius (assumes sampled at ~lambda/2D) (arcsec)
   IF KEYWORD_SET(nir) THEN BEGIN ;adjust NIR parameters, if keyword set
     theta = DBLARR(Nlam)
     iVIS  = WHERE(lam LE 1.0)
